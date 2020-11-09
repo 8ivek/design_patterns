@@ -14,11 +14,6 @@ class Database
         // code to connect to database
     }
 
-    private function __clone()
-    {
-        // TODO: Implement __clone() method.
-    }
-
     public static function getInstance()
     {
         if (!self::$instance instanceof Database) {
