@@ -4,7 +4,7 @@
 
 class Database
 {
-    private static $instance = null;
+    private static ?Database $instance = null;
 
     /**
      * Database constructor.
@@ -14,24 +14,24 @@ class Database
         // code to connect to database
     }
 
-    public static function getInstance()
+    /**
+     * @return Database
+     */
+    public static function getInstance(): Database
     {
         if (!self::$instance instanceof Database) {
             self::$instance = new Database();
         }
         return self::$instance;
     }
-
-    public function getQuery()
-    {
-        return "SELECT * FROM `sometable`";
-    }
-
 }
 
 class DB
 {
-
+    public function __construct()
+    {
+        // code to connect to db
+    }
 }
 
 // we only need one connection to db => so we use singleton pattern here
