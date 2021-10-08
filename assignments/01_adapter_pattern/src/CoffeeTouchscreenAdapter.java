@@ -1,6 +1,10 @@
 public class CoffeeTouchscreenAdapter  implements CoffeeMachineInterface {
     
-    OldCoffeeMachine ocm = new OldCoffeeMachine();
+    private final OldCoffeeMachine ocm;
+
+    public CoffeeTouchscreenAdapter(OldCoffeeMachine ovm) {
+        this.ocm = ovm;
+    }
 
     public void chooseFirstSelection() {
         System.out.println("chooseFirstSelection is called");

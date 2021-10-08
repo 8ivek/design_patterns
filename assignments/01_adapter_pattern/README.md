@@ -1,2 +1,2 @@
-# Adapter pattern assignment
+# Adapter pattern coffee machine assignment
 
