@@ -1,7 +1,7 @@
 public interface IComponent {
-    void play();
+    public void play();
 
-    void setPlaybackSpeed(float speed);
+    public void setPlaybackSpeed(float speed);
 
-    String getName();
+    public String getName();
 }

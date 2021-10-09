@@ -16,7 +16,7 @@ public class Song implements IComponent {
     public void play() {
         // play song
         System.out.println(
-                "Playing song: " + this.getName() + "by artist" + this.getArtist() + " in speed: " + this.speed);
+                "Playing song: " + this.getName() + " by artist: " + this.getArtist() + " in speed: " + this.speed);
     }
 
     @Override
