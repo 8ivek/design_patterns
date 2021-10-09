@@ -1,1 +1,1 @@
-# Composite pattern
+# Composite pattern assignment
