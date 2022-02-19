@@ -1,5 +1,4 @@
-# PHP Design Patterns
-Trying to implement design patterns in PHP
+# Design Patterns
 
 ### Introduction to Design Patterns: Creational and Structural Patterns
 
